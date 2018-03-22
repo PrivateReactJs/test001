@@ -10,9 +10,9 @@ class Board extends React.Component {
           isXPlayer: true, 
           move:0,         
         };
-        const squares = this.state.squares;
-        const historyObj = this.state.history;
-        this.setState({history: historyObj.concat([{squares}])});
+        //const squares = this.state.squares;
+        //const historyObj = this.state.history;
+        //this.setState({history: historyObj.concat([{squares}])});
     }
 
     renderSquare(i) {
